@@ -235,12 +235,12 @@ vnoremap <silent> <Plug>MoveBlockHalfPageUp     :call <SID>MoveBlockHalfPageUp()
 vnoremap <silent> <Plug>MoveBlockLeft           :call <SID>MoveBlockLeft()<CR>
 vnoremap <silent> <Plug>MoveBlockRight          :call <SID>MoveBlockRight()<CR>
 
-nnoremap <silent> <Plug>MoveLineDown            :call <SID>MoveLineDown(1)<CR>
-nnoremap <silent> <Plug>MoveLineUp              :call <SID>MoveLineUp(1)<CR>
-nnoremap <silent> <Plug>MoveLineHalfPageDown    :call <SID>MoveLineHalfPageDown()<CR>
-nnoremap <silent> <Plug>MoveLineHalfPageUp      :call <SID>MoveLineHalfPageUp()<CR>
-nnoremap <silent> <Plug>MoveCharLeft            :<C-u>call <SID>MoveCharLeft()<CR>
-nnoremap <silent> <Plug>MoveCharRight           :<C-u>call <SID>MoveCharRight()<CR>
+" nnoremap <silent> <Plug>MoveLineDown            :call <SID>MoveLineDown(1)<CR>
+" nnoremap <silent> <Plug>MoveLineUp              :call <SID>MoveLineUp(1)<CR>
+" nnoremap <silent> <Plug>MoveLineHalfPageDown    :call <SID>MoveLineHalfPageDown()<CR>
+" nnoremap <silent> <Plug>MoveLineHalfPageUp      :call <SID>MoveLineHalfPageUp()<CR>
+" nnoremap <silent> <Plug>MoveCharLeft            :<C-u>call <SID>MoveCharLeft()<CR>
+" nnoremap <silent> <Plug>MoveCharRight           :<C-u>call <SID>MoveCharRight()<CR>
 
 
 if g:move_map_keys
