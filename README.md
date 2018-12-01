@@ -1,3 +1,10 @@
+# Visual Move
+This is a forked version of matze/vim-move.  I like the functionality of vim-move, and find it handy to be able to bubble text up and down.  However, the default binding clash with my preferred keybindings for navigating vim splits.  To fix this, I have modified vim-move to only apply in visual mode (which is when I want to move text 95% of the time anyway)
+
+Original README below:
+
+
+
 # move
 
 It's annoying to delete and paste parts of a text just to move it up/down or
